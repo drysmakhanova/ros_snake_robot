@@ -5,6 +5,7 @@
 #include <joint_limits_interface/joint_limits_interface.h>
 #include <joint_limits_interface/joint_limits_rosparam.h>
 
+#include <mutex>
 #include "std_msgs/String.h"
 #include "std_msgs/Float32.h"
 #include "dynamixel_sdk/dynamixel_sdk.h"
