@@ -1,0 +1,10 @@
+joint_trajectory_controller:
+  type: "position_controllers/JointTrajectoryController"
+  joints:
+    - joint1
+    - joint2
+    - joint3
+    - joint4
+    - joint5
+  state_publish_rate: 50
+  action_monitor_rate: 50
